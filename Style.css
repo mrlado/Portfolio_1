@@ -1,0 +1,131 @@
+/* font-family: 'Anton', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+*{
+    font-family: 'Anton', sans-serif;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+}
+
+header{
+    width: 1600px;
+    height: 900px;
+    margin: 0 auto;
+    background-image: url('./img/header-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1600px;    
+}
+.topContainer{
+    width: 1172px;
+    height: auto;
+    margin: 0 auto;
+    padding: 57px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+.topContainer ul{
+    display: flex;
+}
+.topContainer img{
+    margin: 0;
+}
+.topContainer ul li{
+    padding: 0 20px;
+}
+
+.topContainer a{
+    display: flex;
+    margin-left: auto;
+}
+.TextBooktickets{
+    width: 1172px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 250.6px;
+}
+.TextBooktickets span {
+    display: block;
+}
+.Hone{
+    font-size: 30px;
+}
+.Htwo{
+    
+    font-size: 100px;
+}
+
+.bookTheticket {
+    display: flex;
+    width: 238px;
+    height: 57px;
+   align-items: center;
+   border: 1px solid white;
+}
+.bookTheticket a{
+    margin: 0 auto;  
+}
+section{
+    width: 1600px;
+    height: 900px;
+    background-color: white;
+    margin: 0 auto;
+}
+.belloConteiner{
+    width: 1172px;
+    height: auto;
+    margin: 0 auto;
+}
+.AbboutTheEvent{
+    display: inline-block;
+    color: black;
+    font-size: 50px;
+    padding-top: 113px;
+}
+.TextContainer{
+display: flex;
+align-items: center;
+}
+
+.leftText span {
+    width: 564px;
+    height: 146px;
+font-size: 16px;
+color: black;
+margin-right: 5px;
+}
+.leftText span p{
+    font-size: 25px;
+    color: black;
+    }
+.rightText span{
+    width: 564px;
+    height: 192px;
+    font-size: 16px;
+    color: black;
+    margin-left: 5px;
+}
+.rightText span p{
+    font-size: 25px;
+    width: auto;
+    color: black;
+    }
+
+footer{
+    width: 1172px;
+    height: auto;
+    margin: 0 auto;
+        display: flex;
+        margin-top: 67px;
+    }
+footer img {
+    margin:  10px;
+}
